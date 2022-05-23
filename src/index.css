@@ -19,8 +19,7 @@ code {
 .title {
 	margin: auto;
 	text-align: center;
-	padding: 1rem;
-	margin: 3rem 0;
+	padding: 3rem 1rem 2rem 1rem;
 	font-size: 32px;
 	font-family: "Roboto Slab";
 	font-weight: 500;

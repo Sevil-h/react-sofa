@@ -21,6 +21,13 @@ const Home = () => {
 					Visit Our <span>Galery</span>
 				</h2>
 				<Galery />
+				<h2 className="title">
+					Most Popular <span>Products</span>
+				</h2>
+				<p className="text">
+					The Stylish interior makes us want to spend time in it.
+				</p>
+				<Products />
 			</div>
 		</>
 	);

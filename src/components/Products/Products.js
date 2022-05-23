@@ -11,9 +11,9 @@ const Products = () => {
 				name="Yellow Sofa"
 			/>
 			<Product
-				image="assets/sofa/image2.jpeg"
+				image="assets/sofa/image23.jpeg"
 				price="620.00"
-				name="Salmon Sofa"
+				name="Twin Sofa"
 			/>
 			<Product
 				image="assets/sofa/image4.jpeg"
