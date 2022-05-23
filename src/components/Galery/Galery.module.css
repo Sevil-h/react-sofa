@@ -1,0 +1,17 @@
+.galery {
+	width: 70%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 16px;
+}
+
+.galery div img:nth-child(1) {
+	margin-bottom: 16px;
+}
+
+.galery div img {
+	object-fit: contain;
+	max-width: 300px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}

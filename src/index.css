@@ -8,9 +8,32 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: "Montserrat", "Roboto Slab", "Cinzel";
+	background-color: #f4f4f4 !important;
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
+}
+
+.title {
+	margin: auto;
+	text-align: center;
+	padding: 1rem;
+	margin: 3rem 0;
+	font-size: 32px;
+	font-family: "Roboto Slab";
+	font-weight: 500;
+}
+
+.title span {
+	font-weight: bold;
+	color: #427e9c;
+}
+
+.text {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding: 1rem;
 }

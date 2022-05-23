@@ -1,0 +1,35 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	width: 250px;
+	margin: 8px;
+	background-color: white;
+}
+
+.image {
+	object-fit: cover;
+	height: 270px;
+}
+
+.name {
+	font-family: "Montserrat";
+	font-weight: bold;
+	margin: 0;
+}
+
+.price {
+	color: blue;
+	margin: 0;
+}
+
+.stars {
+	display: flex;
+	flex-direction: row;
+	padding: 0.5rem 0;
+}
+
+.star {
+	color: #d59e23;
+	font-size: 16px;
+}
