@@ -1,10 +1,10 @@
-import React, { Fragament } from "react";
+import React, { Fragment } from "react";
 
 const Layout = (props) => {
 	return (
-		<Fragament>
-			<div className="container">{props.children}</div>
-		</Fragament>
+		<Fragment>
+			<main className="container">{props.children}</main>
+		</Fragment>
 	);
 };
 
